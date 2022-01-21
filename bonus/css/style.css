@@ -73,6 +73,12 @@ span.menu-item{
     margin-left: 1.5rem;
 }
 
+/* hover options */
+
+span.menu-item:hover{
+    
+}
+
 /* photo and description of the product */
 .item{
     width: 700px;
