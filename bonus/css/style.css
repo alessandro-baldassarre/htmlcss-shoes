@@ -71,12 +71,16 @@ span.menu-item{
     background-color: white;
     border-radius: 50%;
     margin-left: 1.5rem;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, .2);
 }
 
 /* hover options */
 
 span.menu-item:hover{
-    
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 1.5rem;
 }
 
 /* photo and description of the product */
