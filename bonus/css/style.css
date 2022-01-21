@@ -1,5 +1,5 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,49 +7,49 @@
 
 /* base classes */
 
-body{
+body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
-.absolute{
+.absolute {
     position: absolute;
 }
 
-.fixed{
+.fixed {
     position: fixed;
 }
 
-.bg-red{
+.bg-red {
     background-color: red;
 }
 
-.bg-green{
+.bg-green {
     background-color: green;
 }
 
-.bg-yellow{
+.bg-yellow {
     background-color: yellow;
 }
 
-.color-yellow{
+.color-yellow {
     color: yellow;
 }
 
-.color-green{
+.color-green {
     color: green;
 }
 
-.full-viewport{
+.full-viewport {
     width: 100vw;
     height: 100vh;
 }
 
 /* menu of navigation */
-ul.menu{
+ul.menu {
     position: fixed;
     top: 0;
     right: 0;
@@ -58,11 +58,11 @@ ul.menu{
     margin-right: 1rem;
 }
 
-ul.menu li{
+ul.menu li {
     display: inline;
 }
 
-span.menu-item{
+span.menu-item {
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -76,15 +76,13 @@ span.menu-item{
 
 /* hover options */
 
-span.menu-item:hover{
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+span.menu-item:hover {
     font-size: 1.5rem;
+    transform: scale(1.3);
 }
 
 /* photo and description of the product */
-.item{
+.item {
     width: 700px;
     text-align: center;
     top: 50%;
@@ -92,13 +90,18 @@ span.menu-item:hover{
     transform: translate(-50%, -50%);
 }
 
-.item-image img{
+.item-image img {
     width: 100%;
+    transform: skew(10deg, 10deg);
 
 }
 
-.item-description h1{
+.item-description h1 {
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: 900;
+}
+/* hover options */
+.item:hover {
+    width: 900px;
 }
