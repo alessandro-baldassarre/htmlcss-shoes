@@ -5,8 +5,10 @@
     box-sizing: border-box;
 }
 
+/* base classes */
+
 body{
-    font-family: monospace;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .relative{
@@ -21,16 +23,37 @@ body{
     position: fixed;
 }
 
-.full-viewport{
-    width: 100vw;
-    height: 100vh;
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-yellow{
     background-color: yellow;
 }
 
+.color-yellow{
+    color: yellow;
+}
+
+.color-green{
+    color: green;
+}
+
+.full-viewport{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* menu of navigation */
 ul.menu{
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 2;
     margin-top: 2rem;
     margin-right: 1rem;
 }
@@ -41,14 +64,16 @@ ul.menu li{
 
 span.menu-item{
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     background-color: white;
     border-radius: 50%;
     margin-left: 1.5rem;
 }
+
+/* photo and description of the product */
 .item{
     width: 700px;
     text-align: center;
