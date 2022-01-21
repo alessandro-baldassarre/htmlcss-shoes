@@ -27,6 +27,28 @@ body{
     background-color: yellow;
 }
 
+ul.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+ul.menu li{
+    display: inline;
+}
+
+span.menu-item{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
 .item{
     width: 700px;
     text-align: center;
